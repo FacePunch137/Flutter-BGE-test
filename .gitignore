@@ -1,0 +1,39 @@
+﻿# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Large Datasets & AI Models (>100MB violates GitHub limits)
+*.db
+*.db-journal
+*.db-wal
+*.onnx
+*.bin
+*.pt
+*.safetensors
+assets/database/
+assets/models/
+georgian_legal_search/assets/database/
+georgian_legal_search/assets/models/
+
+# Flutter & Dart build outputs
+**/build/
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+georgian_legal_search/.flutter-plugins-dependencies
+
+# C++ / Native Windows build outputs
+*.dll
+*.exe
+*.obj
+*.pdb
+georgian_legal_search/windows/flutter/ephemeral/
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.iml

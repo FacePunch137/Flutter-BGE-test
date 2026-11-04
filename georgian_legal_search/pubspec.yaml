@@ -1,0 +1,31 @@
+name: georgian_legal_search
+description: Georgian Legal Search Desktop Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  google_fonts: ^6.2.1
+  sqflite_common_ffi: ^2.3.0+2
+  sqlite3: ^2.3.1
+  onnxruntime: ^1.4.1
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/database/civil_decisions.db
+    - assets/database/admin_decisions.db
+    - assets/models/bge-m3.onnx
+    - assets/models/bge-reranker-v2-m3.onnx
